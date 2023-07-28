@@ -9,7 +9,7 @@ function App() {
 
 	return (
 		<>
-			<div className="flex flex-col w-full h-full min-h-screen font-space-grotesk">
+			<div className="bg-p-black flex flex-col w-full h-full min-h-screen font-space-grotesk">
         <Header />
       </div>
 		</>
