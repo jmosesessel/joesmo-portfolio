@@ -4,14 +4,25 @@ import "./App.css";
 import Header from "./components/Header";
 import SkillsList from "./components/SkillsList";
 import ProjectList from "./components/ProjectList";
+import ContactBox from './components/ContactBox'
+import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<>
-			<div className="bg-p-black pb-20 flex flex-col w-full h-full min-h-screen font-space-grotesk">
-				<Header />
-				<SkillsList />
-				<ProjectList />
+			<div className="w-full h-full min-h-screen font-space-grotesk">
+				{/* Header Area */}
+				<div className="bg-p-black pb-20 px-4 flex flex-col ">
+					<Header />
+					<SkillsList />
+					<ProjectList />
+				</div>
+
+				{/* Footer Area */}
+				<div className=" bg-p-dark-grey py-14 px-4">
+					<ContactBox />
+					<Footer />
+				</div>
 			</div>
 		</>
 	);

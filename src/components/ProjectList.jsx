@@ -20,7 +20,7 @@ function ProjectList() {
 	];
 	return (
 		<>
-			<div className="flex flex-col mx-5 text-p-white">
+			<div className="flex flex-col text-p-white">
 				<div className="flex flex-row justify-between items-center mb-10">
 					<h2 className=" text-[2.5rem]">Projects</h2>
 					<h3 className="text-base block border-b-2 pb-2 border-b-p-green">
