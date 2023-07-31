@@ -3,9 +3,9 @@ import React from "react";
 function ProjectBox({ projects }) {
 	return (
 		<>
-			<div className="flex flex-col gap-[2.5rem]">
+			<div className="grid grid-cols-1 gap-[2.5rem]">
 				{projects.map((project, index) => (
-					<div key={index} className="flex flex-col text-p-white">
+					<div key={index} className=" flex flex-col text-p-white">
 						<img
 							className="w-full h-[15.8125rem] mb-6"
 							src={project.image}

@@ -17,6 +17,20 @@ function ProjectList() {
 			previewLink: "",
 			codeLink: "",
 		},
+		{
+			image: DesignPortfolioImg,
+			title: "DESIGN PORTFOLIO",
+			tech: ["HTML", "CSS"],
+			previewLink: "",
+			codeLink: "",
+		},
+		{
+			image: DesignPortfolioImg,
+			title: "DESIGN PORTFOLIO",
+			tech: ["HTML", "CSS"],
+			previewLink: "",
+			codeLink: "",
+		},
 	];
 	return (
 		<>
