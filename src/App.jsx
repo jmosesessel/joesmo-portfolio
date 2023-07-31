@@ -12,14 +12,14 @@ function App() {
 		<>
 			<div className="w-full h-full min-h-screen font-space-grotesk">
 				{/* Header Area */}
-				<div className="bg-p-black pb-20 px-4 flex flex-col ">
+				<div className="bg-p-black pb-20 px-4 md:px-8 flex flex-col ">
 					<Header />
 					<SkillsList />
 					<ProjectList />
 				</div>
 
 				{/* Footer Area */}
-				<div className=" bg-p-dark-grey py-14 px-4">
+				<div className=" bg-p-dark-grey py-14 px-4 md:px-8">
 					<ContactBox />
 					<Footer />
 				</div>

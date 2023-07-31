@@ -3,7 +3,7 @@ import React from "react";
 function ProjectBox({ projects }) {
 	return (
 		<>
-			<div className="grid grid-cols-1 gap-[2.5rem]">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-[2.5rem]">
 				{projects.map((project, index) => (
 					<div key={index} className=" flex flex-col text-p-white">
 						<img

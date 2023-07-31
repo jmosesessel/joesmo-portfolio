@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 function ContactBox() {
 	return (
 		<>
-			<div className="grid grid-cols-1 justify-center items-center">
+			<div className="grid grid-cols-1 justify-center items-center md:mx-[10.13rem]">
 				<h1 className="text-[2.5rem] mb-5 text-p-white text-center">Contact</h1>
 				<p className="text-base text-p-grey text-center mb-[3.12rem]">
 					I would love to hear about your project and how I could

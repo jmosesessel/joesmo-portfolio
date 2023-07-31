@@ -12,7 +12,7 @@ function SkillsList() {
 	];
 	return (
 		<>
-			<div className="grid grid-cols-1 my-20 py-10 border-y-2 border-y-p-grey ">
+			<div className="grid grid-cols-1 md:grid-cols-2 my-20 py-10 border-y-2 border-y-p-grey ">
 				<SkillBox skills={skills} />
 			</div>
 		</>
