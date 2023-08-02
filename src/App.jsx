@@ -12,7 +12,7 @@ function App() {
 		<>
 			<div className="w-full h-full min-h-screen font-space-grotesk">
 				{/* Header Area */}
-				<div className="bg-p-black pb-20 px-4 md:px-8 flex flex-col ">
+				<div className="bg-p-black pb-20 px-4 md:px-8 lg:px-[10.62rem] flex flex-col ">
 					<Header />
 					<SkillsList />
 					<ProjectList />

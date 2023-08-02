@@ -7,7 +7,7 @@ function ProjectBox({ projects }) {
 				{projects.map((project, index) => (
 					<div key={index} className=" flex flex-col text-p-white">
 						<img
-							className="w-full h-[15.8125rem] mb-6"
+							className="w-full h-[15.8125rem] lg:w-[34.11306rem] lg:h-[25rem] mb-6"
 							src={project.image}
 							alt=""
 						/>

@@ -1,5 +1,5 @@
 import React from "react";
-import DesignPortfolioImg from "../assets/images/design-portfolio.svg";
+import DesignPortfolioImg from "../assets/images/design-portfolio.png";
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
 	const projects = [

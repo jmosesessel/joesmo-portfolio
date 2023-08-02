@@ -4,7 +4,7 @@ import SocialBox from "./SocialBox";
 function Footer() {
 	return (
 		<>
-			<div className="border-t-2 mt-[5.44rem] border-t-p-grey pt-[2.44rem] px-[6.94rem] md:px-0">
+			<div className="border-t-2 mt-[5.44rem] border-t-p-grey pt-[2.44rem] px-[6.94rem] lg:px[10.62rem] md:px-0">
                 
                 <SocialBox />
             </div>
