@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from '../assets/images/photo.svg'
+import Photo from '../assets/images/mypic.png'
 import SocialBox from './SocialBox'
 const HeaderImagePortion = () => {
   return (

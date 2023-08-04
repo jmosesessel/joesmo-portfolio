@@ -27,10 +27,10 @@ function ProjectBox({ projects }) {
 
 						<div className="flex gap-8">
 							<h2 className="text-p-white text-base block border-b-2 pb-2 border-b-p-green ">
-								VIEW PROJECT
+								<a className=" cursor-pointer" href={project.previewLink} target="_blank" rel="noopener noreferrer">VIEW PROJECT</a> 
 							</h2>
 							<h2 className="text-p-white text-base block border-b-2 pb-2 border-b-p-green ">
-								VIEW CODE
+								<a className=" cursor-pointer" href={project.codeLink} target="_blank" rel="noopener noreferrer">VIEW CODE</a> 
 							</h2>
 						</div>
 					</div>
