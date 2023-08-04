@@ -3,12 +3,12 @@ import SkillBox from "./SkillBox";
 
 function SkillsList() {
 	const skills = [
-		{ name: "HTML", years: 4 },
-		{ name: "CSS", years: 4 },
-		{ name: "Javascript", years: 4 },
+		{ name: "HTML", years: 6 },
+		{ name: "CSS", years: 6 },
+		{ name: "Javascript", years: 6 },
 		{ name: "Accessibility", years: 4 },
-		{ name: "React", years: 3 },
-		{ name: "Sass", years: 3 },
+		{ name: "React.js", years: 1 },
+		{ name: "Vue.js", years: 4 },
 	];
 	return (
 		<>
