@@ -4,8 +4,9 @@ import CountiresApiImg from "../assets/images/countries-api-bg.png";
 import FyloLandingPageImg from "../assets/images/fylo-dark-theme-landing-page.png";
 import JWeatherAppImg from "../assets/images/j-weather-app.png";
 import WhackAMoleImg from "../assets/images/whack-a-mole.png";
-import DictionaryAppImg from "../assets/images/dictionary-web-app.png"
-import CountdownTimerImg from "../assets/images/countdown-timer.png"
+import DictionaryAppImg from "../assets/images/dictionary-web-app.png";
+import CountdownTimerImg from "../assets/images/countdown-timer.png";
+import ThreeColComponentImg from "../assets/images/3-column-component.png";
 
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
@@ -55,21 +56,23 @@ function ProjectList() {
 			codeLink: "https://github.com/jmosesessel/count-down-timer",
 		},
 		{
-			image: WhackAMoleImg,
+			image: ThreeColComponentImg,
 			title: "3-COLUMN-PREVIEW-COMPONENT",
 			tech: ["REACT", "TAILWINDCSS"],
-			previewLink: "https://jmosesessel.github.io/3-column-preview-component/",
-			codeLink: "https://github.com/jmosesessel/3-column-preview-component",
+			previewLink:
+				"https://jmosesessel.github.io/3-column-preview-component/",
+			codeLink:
+				"https://github.com/jmosesessel/3-column-preview-component",
 		},
 		{
 			image: WhackAMoleImg,
 			title: "CHECKOUT PAGE",
-			tech: ["HTML", "CSS", "JAVASCRIPT","JQUERY"],
+			tech: ["HTML", "CSS", "JAVASCRIPT", "JQUERY"],
 			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
 			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
 		},
 	];
-	
+
 	return (
 		<>
 			<div className="flex flex-col text-p-white">
