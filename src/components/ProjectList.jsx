@@ -7,6 +7,7 @@ import WhackAMoleImg from "../assets/images/whack-a-mole.png";
 import DictionaryAppImg from "../assets/images/dictionary-web-app.png";
 import CountdownTimerImg from "../assets/images/countdown-timer.png";
 import ThreeColComponentImg from "../assets/images/3-column-component.png";
+import CheckoutPageImg from "../assets/images/checkout-page.png";
 
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
@@ -65,9 +66,9 @@ function ProjectList() {
 				"https://github.com/jmosesessel/3-column-preview-component",
 		},
 		{
-			image: WhackAMoleImg,
+			image: CheckoutPageImg,
 			title: "CHECKOUT PAGE",
-			tech: ["HTML", "CSS", "JAVASCRIPT", "JQUERY"],
+			tech: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
 			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
 			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
 		},
