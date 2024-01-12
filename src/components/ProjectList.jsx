@@ -1,16 +1,22 @@
 import React from "react";
 import DesignPortfolioImg from "../assets/images/design-portfolio.png";
 import CountiresApiImg from "../assets/images/countries-api-bg.png";
-import FyloLandingPageImg from "../assets/images/fylo-dark-theme-landing-page.png"
-import JWeatherAppImg from "../assets/images/j-weather-app.png"
-import WhackAMoleImg from "../assets/images/whack-a-mole.png"
-
-
-
+import FyloLandingPageImg from "../assets/images/fylo-dark-theme-landing-page.png";
+import JWeatherAppImg from "../assets/images/j-weather-app.png";
+import WhackAMoleImg from "../assets/images/whack-a-mole.png";
+import DictionaryAppImg from "../assets/images/dictionary-web-app.png"
+// import CountdownTimerImg from "../"
 
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
 	const projects = [
+		{
+			image: DictionaryAppImg,
+			title: "DICTIONARY APP",
+			tech: ["REACT", "TAILWINDCSS", "VITE"],
+			previewLink: "https://jmosesessel.github.io/dictionary-web-app/",
+			codeLink: "https://github.com/jmosesessel/dictionary-web-app",
+		},
 		{
 			image: CountiresApiImg,
 			title: "COUNTRIES API",
@@ -22,8 +28,10 @@ function ProjectList() {
 			image: FyloLandingPageImg,
 			title: "FYLO LANDING PAGE",
 			tech: ["REACT", "TAILWINDCSS", "VITE"],
-			previewLink: "https://jmosesessel.github.io/fylo-dark-theme-landing-page",
-			codeLink: "https://github.com/jmosesessel/fylo-dark-theme-landing-page",
+			previewLink:
+				"https://jmosesessel.github.io/fylo-dark-theme-landing-page",
+			codeLink:
+				"https://github.com/jmosesessel/fylo-dark-theme-landing-page",
 		},
 		{
 			image: JWeatherAppImg,
@@ -39,7 +47,29 @@ function ProjectList() {
 			previewLink: "https://jmosesessel.github.io/whack-a-mole-game/",
 			codeLink: "https://github.com/jmosesessel/whack-a-mole-game",
 		},
+		{
+			image: WhackAMoleImg,
+			title: "COUNTDOWN TIMER",
+			tech: ["HTML", "CSS", "JAVASCRIPT"],
+			previewLink: "https://jmosesessel.github.io/count-down-timer/",
+			codeLink: "https://github.com/jmosesessel/count-down-timer",
+		},
+		{
+			image: WhackAMoleImg,
+			title: "3-COLUMN-PREVIEW-COMPONENT",
+			tech: ["REACT", "TAILWINDCSS"],
+			previewLink: "https://jmosesessel.github.io/3-column-preview-component/",
+			codeLink: "https://github.com/jmosesessel/3-column-preview-component",
+		},
+		{
+			image: WhackAMoleImg,
+			title: "COUNTDOWN TIMER",
+			tech: ["HTML", "CSS", "JAVASCRIPT","JQUERY"],
+			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
+			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
+		},
 	];
+	
 	return (
 		<>
 			<div className="flex flex-col text-p-white">

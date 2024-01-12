@@ -17,28 +17,28 @@ function SocialBox() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<SiGithub />
+						<SiGithub className="hover:fill-p-green"/>
 					</a>
 					<a
 						href="https://www.frontendmentor.io/profile/jmosesessel"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<SiFrontendmentor />
+						<SiFrontendmentor className="hover:fill-p-green" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/joseph-essel-moses/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<SiLinkedin />
+						<SiLinkedin className="hover:fill-p-green" />
 					</a>
 					<a
 						href="https://twitter.com/essel_moses"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<SiTwitter />
+						<SiTwitter className="hover:fill-p-green" />
 					</a>
 				</div>
 			</div>
