@@ -5,7 +5,7 @@ import FyloLandingPageImg from "../assets/images/fylo-dark-theme-landing-page.pn
 import JWeatherAppImg from "../assets/images/j-weather-app.png";
 import WhackAMoleImg from "../assets/images/whack-a-mole.png";
 import DictionaryAppImg from "../assets/images/dictionary-web-app.png"
-// import CountdownTimerImg from "../"
+import CountdownTimerImg from "../assets/images/countdown-timer.png"
 
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
@@ -48,7 +48,7 @@ function ProjectList() {
 			codeLink: "https://github.com/jmosesessel/whack-a-mole-game",
 		},
 		{
-			image: WhackAMoleImg,
+			image: CountdownTimerImg,
 			title: "COUNTDOWN TIMER",
 			tech: ["HTML", "CSS", "JAVASCRIPT"],
 			previewLink: "https://jmosesessel.github.io/count-down-timer/",
@@ -63,7 +63,7 @@ function ProjectList() {
 		},
 		{
 			image: WhackAMoleImg,
-			title: "COUNTDOWN TIMER",
+			title: "CHECKOUT PAGE",
 			tech: ["HTML", "CSS", "JAVASCRIPT","JQUERY"],
 			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
 			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
