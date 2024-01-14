@@ -9,9 +9,6 @@ import CountdownTimerImg from "../assets/images/countdown-timer.png";
 import ThreeColComponentImg from "../assets/images/3-column-component.png";
 import CheckoutPageImg from "../assets/images/checkout-page.png";
 import AnalogueClockFaceImg from "../assets/images/analogue-clock-face.png";
-
-analogue-clock-face.png
-
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
 	const projects = [
