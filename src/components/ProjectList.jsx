@@ -8,6 +8,9 @@ import DictionaryAppImg from "../assets/images/dictionary-web-app.png";
 import CountdownTimerImg from "../assets/images/countdown-timer.png";
 import ThreeColComponentImg from "../assets/images/3-column-component.png";
 import CheckoutPageImg from "../assets/images/checkout-page.png";
+import AnalogueClockFaceImg from "../assets/images/analogue-clock-face.png";
+
+analogue-clock-face.png
 
 import ProjectBox from "./ProjectBox";
 function ProjectList() {
@@ -69,6 +72,13 @@ function ProjectList() {
 			image: CheckoutPageImg,
 			title: "CHECKOUT PAGE",
 			tech: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
+			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
+			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
+		},
+		{
+			image: AnalogueClockFaceImg,
+			title: "ANALOGUE CLOCK FACE ANIMATION",
+			tech: ["HTML", "CSS", "JAVASCRIPT"],
 			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
 			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
 		},
