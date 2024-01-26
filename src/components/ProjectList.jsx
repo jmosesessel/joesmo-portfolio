@@ -76,8 +76,10 @@ function ProjectList() {
 			image: AnalogueClockFaceImg,
 			title: "ANALOGUE CLOCK FACE ANIMATION",
 			tech: ["HTML", "CSS", "JAVASCRIPT"],
-			previewLink: "https://jmosesessel.github.io/WDDM115-Project1/",
-			codeLink: "https://github.com/jmosesessel/WDDM115-Project1",
+			previewLink:
+				"https://jmosesessel.github.io/analogue-clock-face-animation",
+			codeLink:
+				"https://github.com/jmosesessel/analogue-clock-face-animation",
 		},
 	];
 
