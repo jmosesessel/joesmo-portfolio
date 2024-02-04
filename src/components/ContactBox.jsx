@@ -1,5 +1,6 @@
 import React from "react";
 import ContactForm from "./ContactForm";
+import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 
 function ContactBox() {
 	return (
@@ -14,6 +15,14 @@ function ContactBox() {
 						help. Please fill in the form, and I’ll get back to you
 						as soon as possible.
 					</p>
+					<div className="flex items-center mb-1 gap-2 text-base lg:text-[1.125rem] text-p-white">
+						<HiOutlineMail className="text-3xl text-p-green" />
+						<h2>jmosesessel21@gmail.com</h2>
+					</div>
+					<div className="flex items-center mb-[3.12rem] gap-2 text-base lg:text-[1.125rem] text-p-white">
+						<HiOutlinePhone className="text-3xl text-p-green" />
+						<h2>+1(437) 438-1635</h2>{" "}
+					</div>
 				</div>
 
 				<div>
